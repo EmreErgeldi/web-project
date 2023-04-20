@@ -84,8 +84,8 @@ bu arda logoyu kendim figma üzerinden tasaradım. :)
 ## Web Sitesine Erişim
 
 ```
-GitHub: [https://github.com/EmreErgeldi/web-project]
-Vercel: [https://web-project-pied.vercel.app/]
+GitHub: https://github.com/EmreErgeldi/web-project
+Vercel: https://web-project-pied.vercel.app/
 ```
 
 ## Çalıştırmak için
