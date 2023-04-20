@@ -42,9 +42,9 @@ Resimlerin optimize edilmesi sayfa yüklenmesini hızlandırır ve kullanıcıya
 ## Next/Link
 
 ```
-Next/Link Next.js in özelliği olan bir component. Bu component yine bir Next.js özelliği olan static routing
-ile sayfalar arası geçişlerde sayfa yenilenmesi olmamasını sağlar. Sayfa yenilenmesi olmaması sayfa yüklenmesini
-hızlandırır ve kullanıcıya daha iyi bir deneyim sunar.
+Next/Link Next.js in özelliği olan bir component. Bu component yine bir Next.js özelliği olan
+static routing ile sayfalar arası geçişlerde sayfa yenilenmesi olmamasını sağlar.
+Sayfa yenilenmesi olmaması sayfa yüklenmesini hızlandırır ve kullanıcıya daha iyi bir deneyim sunar.
 ```
 
 ## useRouter
@@ -72,10 +72,11 @@ gibi medium.com sitesinin tasarımını ona benzetmeye çalıştım. Projede kul
 medium.com sitesinden çekilmiştir.
 
 Blog detay sayfasını blogs.js dosyasında kurduğum veri yapısı sayesinde paragraf ardından ilgili fotoğraf
-ve ardından tekrar paragraf şeklinde oluşturdum. Bu sayede blog detay sayfasında yazıyı daha okunaklı hale getirdim.
+ve ardından tekrar paragraf şeklinde oluşturdum. Bu sayede blog detay sayfasında yazıyı
+daha okunaklı hale getirdim.
 
-Tabiki projede şu anda Navbar sadece ana sayfaya yönlendirmek için kullandım ancak ilerde eklediğim iconlara
-uygun fonksiyonlar eklenebilecek kadar genişletilebilir bir yapıda oluşturdum.
+Tabiki projede şu anda Navbar sadece ana sayfaya yönlendirmek için kullandım ancak ilerde eklediğim
+iconlara uygun fonksiyonlar eklenebilecek kadar genişletilebilir bir yapıda oluşturdum.
 
 bu arda logoyu kendim figma üzerinden tasaradım. :)
 ```
