@@ -6,7 +6,6 @@ import Image from "next/image";
 
 export default function Blog() {
   const id = useRouter().query.blog_id;
-  console.log(id, BLOGS[id], authors[id]);
   return (
     id && (
       <div className="flex flex-col tracking-tighter">
@@ -14,7 +13,6 @@ export default function Blog() {
         <hr className="m-1" />
         <div className="flex flex-col m-auto mb-12">
           <div className="flex items-center">
-            {console.log(authors[id])}
             <Image src={authors[id].image} alt="author image" width={48} height={48} className="rounded-full" />
             <div className="flex flex-col">
               <p className="text-md font-semibold mx-2">{authors[id].name}</p>

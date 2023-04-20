@@ -59,21 +59,21 @@ yerine useRouter hookuyla urlden blog_id değerini okudum ve bu değere uygun bl
 ```
 İlk açılıştaki sayfada constants klasöründe bulunan blogs.js dosyasındaki blogların listesi görüntülenir.
 Her bir blogun başlığı, kısa açıklaması ve resmi görüntülenir. Her bir blogun başlığına tıklandığında
-blogun detay sayfasına yönlendirilir. Blog detay sayfasında blogun başlığı, açıklaması,
-resmi ve tarih bilgisi görüntülenir. Ayrıca authors.js dosyasında tuttuğum yazarlar ile blogs.js
-dosyasında autor_id ile bir bağlantı kurdum ve yazar bilgilerini ordan çekerek ekranda gösterdim.
+blogun detay sayfasına yönlendirilir. Blog detay sayfasında blogun başlığı, açıklaması, resmi ve
+tarih bilgisi görüntülenir. Ayrıca authors.js dosyasında tuttuğum yazarlar ile blogs.js dosyasında
+autor_id ile bir bağlantı kurdum ve yazar bilgilerini ordan çekerek ekranda gösterdim.
 
 Projedeki bütün resimler public klasörü altında bulunmaktadır bu resimlere hangi pathte olursak olalım
-direkt olarak erişebilmeyi sağlıyor. Örneğin public/images/1.jpg dosyasına erişmek için
-/images/1.jpg şeklinde erişebiliyoruz.
+direkt olarak erişebilmeyi sağlıyor. Örneğin public/images/1.jpg dosyasına erişmek için/images/1.jpg
+şeklinde erişebiliyoruz.
 
 Projedeki yazıları ve yazarları medium.com sitesinden çektim. Zaten sitenin görünüşünden de anlaşılacağı
 gibi medium.com sitesinin tasarımını ona benzetmeye çalıştım. Projede kullanılan resimlerin hepsi
 medium.com sitesinden çekilmiştir.
 
 Blog detay sayfasını blogs.js dosyasında kurduğum veri yapısı sayesinde paragraf ardından ilgili fotoğraf
-ve ardından tekrar paragraf şeklinde oluşturdum. Bu sayede blog detay sayfasında yazıyı
-daha okunaklı hale getirdim.
+ve ardından tekrar paragraf şeklinde oluşturdum. Bu sayede blog detay sayfasında yazıyı daha okunaklı
+ hale getirdim.
 
 Tabiki projede şu anda Navbar sadece ana sayfaya yönlendirmek için kullandım ancak ilerde eklediğim
 iconlara uygun fonksiyonlar eklenebilecek kadar genişletilebilir bir yapıda oluşturdum.
@@ -82,6 +82,11 @@ bu arda logoyu kendim figma üzerinden tasaradım. :)
 ```
 
 ## Web Sitesine Erişim
+
+```
+GitHub: [https://github.com/EmreErgeldi/web-project]
+Vercel: [https://web-project-pied.vercel.app/]
+```
 
 ## Çalıştırmak için
 
