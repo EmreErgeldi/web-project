@@ -93,9 +93,9 @@ Vercel: https://web-project-pied.vercel.app/
 
 ```bash
 npm install
-veya
+# veya
 yarn install
-veya
+# veya
 pnpm install
 ```
 
@@ -103,9 +103,9 @@ Sonra projeyi development modda çalıştırmak için
 
 ```bash
 npm run dev
-veya
+# veya
 yarn dev
-veya
+# veya
 pnpm dev
 ```
 
@@ -114,10 +114,10 @@ Veya projeyi production modda çalıştırmak için
 ```bash
 npm run build
 npm run start
-veya
+# veya
 yarn build
 yarn start
-veya
+# veya
 pnpm build
 pnpm start
 ```
