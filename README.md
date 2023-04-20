@@ -1,3 +1,10 @@
+## Gereksinimler
+
+```
+- Node.js
+- NPM
+```
+
 ## Proje Hakkında
 
 ```
