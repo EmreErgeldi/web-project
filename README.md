@@ -117,9 +117,11 @@ bu arda logoyu kendim figma üzerinden tasaradım. :)
 
 GitHub: https://github.com/EmreErgeldi/web-project
 
-Vercel: https://web-project-pied.vercel.app/
-
 ## Çalıştırmak için
+
+Önce .NET Core Web API'yi çalıştırın.
+
+daha sonra
 
 Önce gerekli modülleri yüklemek için
 
