@@ -14,6 +14,11 @@ gibi özellikler kullanılabilir ancak bu projede onları kullanmadım sadece co
 bazı hookları kullanarak bir proje oluşturdum. Bunların yanı sıra css library'si olarak Tailwind ve
 UI framework olarak Material UI kullandım bunlara ek olarak Next.js in özelliği olan
 static routing, Next/Image ve Next/Link kullandım.
+
+Projede .NET Core Web API kullanarak bir backend oluşturdum. Database olarak ise Postgresql kullandım.
+Bu database bir sunucuda çalıştığı için projeyi çalıştırmadan önce .NET Core Web API'yi çalıştırmanız
+yeterli olacaktır. Projede görünen bloglar ve yazarlar bu databse üzerinden çekilmektedir ve yaptığınız
+değişikliklerde database'i etkileyecektir.
 ```
 
 ## Kullanılan Teknolojiler
@@ -23,6 +28,14 @@ static routing, Next/Image ve Next/Link kullandım.
 - React
 - Tailwind
 - Material UI
+```
+
+## Harici Teknolojiler
+
+```
+- C# .NET Core Web API version 7.0.5
+- Entity Framework Core version 7.0.5
+- PostgreSQL
 ```
 
 ## Material UI
@@ -64,29 +77,41 @@ yerine useRouter hookuyla urlden blog_id değerini okudum ve bu değere uygun bl
 ## Projenin Özellikleri
 
 ```
-İlk açılıştaki sayfada constants klasöründe bulunan blogs.js dosyasındaki blogların listesi görüntülenir.
+İlk açılıştaki sayfada db üerinden blogların listesi görüntülenir.
 Her bir blogun başlığı, kısa açıklaması ve resmi görüntülenir. Her bir blogun başlığına tıklandığında
 blogun detay sayfasına yönlendirilir. Blog detay sayfasında blogun başlığı, açıklaması, resmi ve
-tarih bilgisi görüntülenir. Ayrıca authors.js dosyasında tuttuğum yazarlar ile blogs.js dosyasında
-autor_id ile bir bağlantı kurdum ve yazar bilgilerini ordan çekerek ekranda gösterdim.
+tarih bilgisi görüntülenir. Ayrıca authors.js dosyasında tuttuğum yazarlar ile bloglar arasında bir bağlantı kurdum
+ve yazar bilgilerini ordan çekerek ekranda gösterdim.
 
-Projedeki bütün resimler public klasörü altında bulunmaktadır bu resimlere hangi pathte olursak olalım
+Projedeki yazar resimlerı public klasörü altında bulunmaktadır bu resimlere hangi pathte olursak olalım
 direkt olarak erişebilmeyi sağlıyor. Örneğin public/images/1.jpg dosyasına erişmek için/images/1.jpg
-şeklinde erişebiliyoruz.
+şeklinde erişebiliyoruz. Blogların resimlerini ise databasede tuttuğum için bu resimlere direkt olarak ordan eriştim.
 
 Projedeki yazıları ve yazarları medium.com sitesinden çektim. Zaten sitenin görünüşünden de anlaşılacağı
-gibi medium.com sitesinin tasarımını ona benzetmeye çalıştım. Projede kullanılan resimlerin hepsi
+gibi medium.com sitesinin tasarımına benzetmeye çalıştım. Projede kullanılan resimlerin hepsi
 medium.com sitesinden çekilmiştir.
 
-Blog detay sayfasını blogs.js dosyasında kurduğum veri yapısı sayesinde paragraf ardından ilgili fotoğraf
+Blog detay sayfasını blog tablasında kurduğum veri yapısı sayesinde paragraf ardından ilgili fotoğraf
 ve ardından tekrar paragraf şeklinde oluşturdum. Bu sayede blog detay sayfasında yazıyı daha okunaklı
- hale getirdim.
+hale getirdim.
 
-Tabiki projede şu anda Navbar sadece ana sayfaya yönlendirmek için kullandım ancak ilerde eklediğim
-iconlara uygun fonksiyonlar eklenebilecek kadar genişletilebilir bir yapıda oluşturdum.
+İlk başlangıçta hiçbir kullanıcı girişi olmadığı için kullanıcı girişi yapmak için sign in butonu gözüküyor.
+Sign in olmasak bile blogları görüntüleyebiliyoruz. Sign in olursak kendi yazdığımız blogları silebiliyoruz
+denemek için username: emre password: pass ile deneyebilirsiniz.
+
+Write butonuna tıkladığımızda bir popup açılıyor ve orda kişileştirilmiş blog yazabiliriz.
+Sadece title doldurulması zorunlu diğer her şey isteğe bağlı o yüzden blogun
+görünümünü istediğimiz gibi düzenleyebiliriz örneğin resimi önce yazıyı sonra koymak istiyorsak
+ikinci paragraf kısmı tam tersi için birinci paragraf kısmı doldurulacak.
+
+Kendi yazdığımız blogları görmek için sign in olduktan sonra sağ üstte profil resmine tıklayıp açılan
+kısımdan profile butonuna tıklıyoruz ve orda kendi yazdığımız blogları görüntüleyebiliyoruz.
+Bu ekranda kendi yazdığımız blogları silebiliyoruz.
+```
 
 bu arda logoyu kendim figma üzerinden tasaradım. :)
-```
+
+````
 
 ## Web Sitesine Erişim
 
@@ -104,7 +129,7 @@ npm install
 yarn install
 # veya
 pnpm install
-```
+````
 
 Sonra projeyi development modda çalıştırmak için
 

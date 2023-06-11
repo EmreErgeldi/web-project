@@ -14,7 +14,7 @@ export const BLOGS = [
             "Few shot standard prompts are the standard prompts we’ve seen before, but with examples of the task in them. Why examples? Well, If you want to increase your chances to get the desired result, you have to add examples of the task that the prompt is trying to solve. Few-shot standard prompts consist of a task description, examples, and the prompt. In this case, the prompt is the beginning of a new example that the model should complete by generating the missing text. Here are the components of few shot standard prompts.",
             "Now let’s create another prompt. Say we want to extract airport codes from the text “I want to fly from Orlando to Boston” Here’s the standard prompt that most would use. Extract the airport codes from this text: “I want to fly from Orlando to Boston” This might get the job done, but sometimes it might not be enough. In such cases, you have to use few shot standard prompts. Extract the airport codes from this text: Text: “I want to fly from Los Angeles to Miami.” Airport codes: LAX, MIA Text: “I want to fly from Nashville to Kansas City.” Airport codes: BNA, MCI Text: “I want to fly from Orlando to Boston” Airport codes: If we try the previous prompt on ChatGPT, we’re going to get the airport code in the format we specified in the example (MCO, BOS) Keep in mind that previous research found that the actual answers in the examples are not important, but the labelspace is. A labelspace is all the possible labels for a given task. You could improve the results of your prompts by even providing random labels from the labelspace. Let’s test this by typing random airport codes in our example. Extract the airport codes from this text: Text: “I want to fly from Los Angeles to Miami.” Airport codes: DEN, OAK Text: “I want to fly from Nashville to Kansas City.” Airport codes: DAL, IDA Text: “I want to fly from Orlando to Boston” Airport codes: If you tried the previous prompt on ChatGPT, you’ll still get the right airport codes MCO and BOS. Whether your examples are correct or not, include random labels from the labelspace. This will help you improve results and instruct the model on how to format the answer to the prompt.",
           ],
-          images: ["/1-1.webp"],
+          images: ["https://miro.medium.com/v2/resize:fit:720/format:webp/1*OrfhOZhi-PmOjUY-cLI0_g.png"],
         },
         {
           title: "Role Prompting",
@@ -22,7 +22,7 @@ export const BLOGS = [
             "Sometimes the default behavior of ChatGPT isn’t enough to get what you want. This is when you need to set a role for ChatGPT. Say you want to practice for a job interview. By telling ChatGPT to “act as hiring manager” and adding more details to the prompt, you’ll be able to simulate a job interview for any position.",
             "As you can see, ChatGPT behaves like he’s interviewing me for a job position. Just like that, you can turn ChatGPT into a language tutor to practice a foreign language like Spanish or a movie critic to analyze any movie you want. In this article, I dive more into how to turn ChatGPT into your language tutor or language buddy. You only need to start your prompt with the words “Act as a … ” and then add as many details as possible. If you need some inspiration, check this repository where you’ll find prompts to make ChatGPT behave like a stand-up comedian, doctor, and more.",
           ],
-          images: ["/1-2.webp"],
+          images: ["https://miro.medium.com/v2/resize:fit:720/format:webp/1*ymBe2Y3KKwIoyvYWfOR7RA.png"],
         },
       ],
     },
@@ -30,7 +30,7 @@ export const BLOGS = [
     createdBy: 0,
     approxReadTime: "7 min",
     tags: ["Artifical Intellegence", "ChatGPT"],
-    mainImage: "/0.webp",
+    mainImage: "https://miro.medium.com/v2/resize:fit:720/format:webp/1*y0vJwEfN45barnQO9jiYew.jpeg",
   },
   {
     blog_id: 1,
