@@ -111,8 +111,6 @@ Bu ekranda kendi yazdığımız blogları silebiliyoruz.
 
 bu arda logoyu kendim figma üzerinden tasaradım. :)
 
-````
-
 ## Web Sitesine Erişim
 
 GitHub: https://github.com/EmreErgeldi/web-project
@@ -131,7 +129,7 @@ npm install
 yarn install
 # veya
 pnpm install
-````
+```
 
 Sonra projeyi development modda çalıştırmak için
 
