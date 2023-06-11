@@ -113,7 +113,9 @@ bu arda logoyu kendim figma üzerinden tasaradım. :)
 
 ## Web Sitesine Erişim
 
-GitHub: https://github.com/EmreErgeldi/web-project
+Frontend Repository: https://github.com/EmreErgeldi/web-project
+
+Backend Repository: https://github.com/EmreErgeldi/Small-API
 
 ## Çalıştırmak için
 
